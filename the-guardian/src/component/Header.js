@@ -10,18 +10,12 @@ class Header extends React.Component {
          }
     }
 
-async journalApiCall() {
-    try {
-        const res = await axios.get('https://content.guardianapis.com/search?api-key=9e18061c-d955-4143-8a9e-c15b0220e2dc');
-        console.log(res.data);
-    }catch(e){
-        console.error(e)
-    }
-}
 
     render() { 
         return ( 
-            {this.data.}
+            <div>
+                
+            </div>
          );
     }
 }
