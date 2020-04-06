@@ -1,6 +1,6 @@
 import React from 'react';
 
-class TinyHeaderBox extends React.Component {
+class Culture extends React.Component {
     constructor(props) {
         super(props);
         this.state = {  }
@@ -10,4 +10,4 @@ class TinyHeaderBox extends React.Component {
     }
 }
  
-export default TinyHeaderBox;
+export default Culture;
