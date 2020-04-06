@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './component/Header';
-import TinyHeaderBox from './component/TinyHeaderBox';
+import TinyHeaderBox from './component/Culture';
 import axios from 'axios';
 
 import './App.css';
