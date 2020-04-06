@@ -27,7 +27,7 @@ class Culture extends React.Component {
     render() { 
         return (
             <div>
-                <p> { this.state.cultureTab} </p>
+                <p> This is now working { this.state.cultureTab} </p>
             </div>
         )
     }
