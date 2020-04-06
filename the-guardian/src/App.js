@@ -5,11 +5,14 @@ import axios from 'axios';
 
 import './App.css';
 
-function App() {
-  return (
+class App extends React.Component {
+  state = {  }
+  render() { 
+    return (  
     <div className="App">
       <Header />
       <TinyHeaderBox />
     </div>
-  );
+    );
+  }
 }
